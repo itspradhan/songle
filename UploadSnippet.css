@@ -1,0 +1,228 @@
+*
+{
+
+  margin: 0px;
+	padding: 0px;
+
+}
+
+body
+{
+
+	background-color: gold;
+
+}
+
+	#logo
+	{
+
+		margin-bottom: 30px;
+		padding: 20px 0px;
+
+		width: 100%;
+		/*height: 100px;*/
+		/*line-height: 100px;*/
+
+
+		vertical-align: middle;
+		text-align: center;
+		/*font: normal 36pt "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+		font: normal 36pt "Happy Monkey";
+
+		/*color: gold;*/
+
+		background-color: black;
+
+
+	}
+
+		#logo .blue
+		{
+
+			color: blue;
+
+		}
+
+		#logo .red
+		{
+
+			color: red;
+
+		}
+
+		#logo .yellow
+		{
+
+			color: yellow;
+
+		}
+
+		#logo .green
+		{
+
+			color: green;
+
+		}
+
+	#drop_box
+	{
+
+		/*width: 80%;*/
+		height: 450px;
+		/*line-height: 450px;*/
+
+		margin: 100px 200px;
+
+		border-radius: 30px;
+		border: 10px dashed grey;
+
+		/*background-color: lightgrey;*/
+		background-color: white;
+
+/*		text-align: center;*/
+
+	}
+
+		#browse_file
+		{
+
+			display: inline-block;
+
+			/*position: fixed !important;*/
+
+			width: 100%;
+			height: 450px;
+			line-height: 450px;
+
+			/*margin: auto;*/
+
+			/*word-wrap: break-word;*/
+
+			/*vertical-align: middle;*/
+			/*font: bold 24pt arial;*/
+			/*color: grey;*/
+
+			/*text-align: center;*/
+
+			/*background: url( image/loading157.gif ) no-repeat -9999px;*/
+
+		}
+
+		#drop_box_message
+		{
+
+			display: inline-block;
+
+			width: 100%;
+
+			/*margin: 0px auto;*/
+
+			/*word-wrap: break-word;*/
+
+			vertical-align: middle;
+			
+			/*font: normal 24pt "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+			font: normal 24pt "Happy Monkey";
+
+			color: grey;
+
+			text-align: center;
+
+		}
+
+			#drop_box_message span
+			{
+
+				display: block;
+
+			}
+
+			#drop_box_message #title
+			{
+
+				/*display: block;*/
+
+				font-size: 24pt;
+
+			}
+
+			#drop_box_message #artist
+			{
+
+				/*display: block;*/
+
+				/*font: normal 16pt "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+				font-size: 16pt;
+
+			}
+
+
+		.loading
+		{
+
+		/*	width: 100%;
+			height: 450px;
+*/
+			background: url( image/loading157.gif ) no-repeat center 28px;
+
+		}
+
+		.pointer
+		{
+
+			cursor: pointer;
+
+		}
+
+	#youtube_link
+	{
+
+		display: none;
+
+		position: absolute;
+		right: 0px;
+		top: 360px;
+
+		width: 128px;
+		height: 128px;
+
+		background: url( image/arrow_right.png ) no-repeat;
+		background-size: contain;
+
+	}
+
+	a:link 
+	{
+
+		text-decoration: none;
+		/*color: black;*/
+		cursor: pointer;
+
+	}
+
+	a:visited
+	{
+
+		text-decoration: none;
+		/*color: black;*/
+		cursor: pointer;
+
+	}
+
+	a:hover
+	{	
+
+		text-decoration: none;
+		/*color: black;*/
+		cursor: pointer;
+
+	}
+
+	a:active
+	{
+
+		text-decoration: none;
+		/*color: black;*/
+		cursor: pointer;
+
+	}
